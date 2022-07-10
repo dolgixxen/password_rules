@@ -52,7 +52,7 @@
           <p class="podpis">эксперт статьи</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-          <p class="comment">«Порой требования информационной безопасности кажутся избыточными и&nbsp;невыполнимыми. Я&nbsp;прекрасно знаю это&nbsp;чувство замешательства: „Как&nbsp;прикажете делать такие сложные пароли и&nbsp;держать их&nbsp;все в&nbsp;голове?“ Чтобы решить эту&nbsp;проблему, я&nbsp;изучал методы взлома и&nbsp;защиты информации, исследовал поведение и&nbsp;привычки людей. Я&nbsp;пытался найти золотую середину между защищенностью и&nbsp;удобством для&nbsp;пользователей. Результатом стала методика создания простых и&nbsp;человечных паролей. Эти&nbsp;пароли соответствуют современным требованиям безопасности. При&nbsp;этом их&nbsp;легко запомнить и&nbsp;вводить каждый день»</p>
+          <p class="comment">«Порой требования информационной безопасности кажутся избыточными и&nbsp;невыполнимыми. Я&nbsp;прекрасно знаю это&nbsp;чувство замешательства: „Как&nbsp;прикажете делать такие сложные пароли и&nbsp;держать их&nbsp;все в&nbsp;голове?“ Чтобы&nbsp;решить эту&nbsp;проблему, я&nbsp;изучал методы взлома и&nbsp;защиты информации, исследовал поведение и&nbsp;привычки людей. Я&nbsp;пытался найти золотую середину между защищенностью и&nbsp;удобством для&nbsp;пользователей. Результатом стала методика создания простых и&nbsp;человечных паролей. Эти&nbsp;пароли соответствуют современным требованиям безопасности. При&nbsp;этом их&nbsp;легко запомнить и&nbsp;вводить каждый день»</p>
         </div>
       </div>
       <div class="row">
@@ -60,30 +60,29 @@
           <h2>Как создать надежный и простой пароль</h2>
           <p class="no_mb">Какой из этих паролей надежнее?</p>
           <ul class="container__list inner_ml">
-            <li>9_,f8Wr-Hb</li>
-            <li>qwerty123!@</li> 
+            <li>$vJn#йык</li>
+            <li>qwert12345</li> 
             <li>1КрасныйПамидор!</li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="container" style="margin-top: 20px;">
-      <div class="row">
+      <div class="row row_hidden" data-name="passwordTable">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-          <table>
-            <tr>
-              <th><b>Пароль</b></th>
-              <th>$vJn#йык</th>
-              <th>qwert12345</th>
-              <th style="padding-left: 20px; padding-right: 20px; background-color: #EEF2FF">1КрасныйПамидор!</th>
-            </tr>
-            <tr>
-              <th><b>Время на подбор</b></th>
-              <th>39 минут</th>
-              <th>4 минуты</th>
-              <th style="padding-left: 20px; padding-right: 20px; background-color: #EEF2FF">1 бллн. лет</th>
-            </tr>
+          <table class="custom-table">
+            <tbody>
+              <tr>
+                <th><b>Пароль</b></th>
+                <th>$vJn#йык</th>
+                <th>qwert12345</th>
+                <th style="padding-left: 20px; padding-right: 20px; background-color: #EEF2FF">1КрасныйПамидор!</th>
+              </tr>
+              <tr>
+                <th><b>Время на подбор</b></th>
+                <th>39 минут</th>
+                <th>4 минуты</th>
+                <th style="padding-left: 20px; padding-right: 20px; background-color: #EEF2FF">1 бллн. лет</th>
+              </tr>
+            </tbody>
           </table>
           <p style="margin-top: 20px;"><b>Ответ:</b> пароль «1КрасныйПамидор!» надежнее других в этой группе.
           </p>
@@ -93,7 +92,13 @@
           </a></p>
         </div>
       </div>
+      <div class="button-container">
+        <button class="button-container__button button-container__button_not_selected" data-name="passwordTable">
+          Узнать ответ
+        </button>
+      </div>
     </div>
+  </div>
     <div class="container" style="margin-top: 20px;">
       <div class="row" style="margin-top: 20px;">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
@@ -142,7 +147,7 @@
       </div>
     </div>
 
-    <div class="container" style="margin-top: 10px; padding-top: 20px; padding-left: 35px; padding-right: 35px; padding-bottom: 40px; background-color:rgba(217, 220, 222, .4)">
+    <div class="container bg-container bg-container_gray">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <p>Пароли хранятся на&nbsp;сайтах в&nbsp;зашифрованной виде —&nbsp;их называют хешами. Украв хеши, мошенники не&nbsp;могут сразу войти в&nbsp;аккаунты пользователей —&nbsp;нужно разгадать шифр и&nbsp;узнать настоящие пароли.</p>
@@ -190,7 +195,7 @@
         </div>
       </div>
     </div>
-    <div class="container" style="margin-top: 10px; padding-top: 20px; padding-left: 35px; padding-right: 35px; padding-bottom: 20px; background-color: #EEF2FF">
+    <div class="container bg-container bg-container_blue">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11">
           <p>Правила надежных паролей:</p>
@@ -225,15 +230,12 @@
       </div>
       <div class="row" style="margin-top: 20px;">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-          <table>
-            <tr>
-              <th><b>Критически важные</b></th>
-              <th><b>Сервисы умеренной критичности</b></th>
-              <th><b>Второстепенные сервисы</b></th>
-            </tr>
-            <tr>
-              <th>
-                <p class="no_mb">Это&nbsp;сервисы, на&nbsp;которых хранятся:</p>
+          <div class="text-container">
+            <div class="text-container__item">
+              <p class="no_mb text-container__head">
+                <b>Критически важные сервисы</b>
+              </p>
+              <p class="no_mb">Это&nbsp;сервисы, на&nbsp;которых хранятся:</p>
                 <p class="no_mb">—&nbsp;паспортные данные,</p>
                 <p class="no_mb">—&nbsp;доступы к&nbsp;рабочим аккаунтам,</p>
                 <p>—&nbsp;данные банковских карт.</p>
@@ -241,9 +243,12 @@
                 <p class="no_mb">—&nbsp;Госуслуги,</p>
                 <p class="no_mb">—&nbsp;электронная почта,</p>
                 <p class="no_mb">—&nbsp;интернет-банк.</p>
-              </th>
-              <th>
-                <p class="no_mb">Это&nbsp;сервисы, на&nbsp;которых хранятся:</p>
+            </div>
+            <div class="text-container__item">
+              <p class="no_mb text-container__head">
+                <b>Сервисы умеренной критичности</b>
+              </p>
+              <p class="no_mb">Это&nbsp;сервисы, на&nbsp;которых хранятся:</p>
                 <p class="no_mb">—&nbsp;номер мобильного телефона,</p>
                 <p class="no_mb">—&nbsp;адрес места жительства,</p>
                 <p>—&nbsp;номер банковской карты.</p>
@@ -251,24 +256,28 @@
                 <p class="no_mb">—&nbsp;социальные сети,</p>
                 <p class="no_mb">—&nbsp;hh.ru,</p>
                 <p class="no_mb">—&nbsp;«Авито».</p>
-              </th>
-              <th>
-                <p>В&nbsp;этих сервисах может храниться ФИО, дата рождения —&nbsp;не&nbsp;больше.</p>
+            </div>
+            <div class="text-container__item">
+              <p class="no_mb text-container__head">
+                <b>Второстепенные сервисы</b>
+              </p>
+              <p>В&nbsp;этих сервисах может храниться ФИО, дата рождения —&nbsp;не&nbsp;больше.</p>
                 <p>С&nbsp;их&nbsp;помощью нельзя размещать публичные заявления, вести диалоги и&nbsp;сохранять личные данные.</p>
                 <p class="no_mb">Пример:</p>
                 <p class="no_mb">—&nbsp;библиотеки,</p>
                 <p class="no_mb">—&nbsp;агрегаторы,</p>
                 <p class="no_mb">—&nbsp;новостные порталы.</p>
-              </th>
-            </tr>
-          </table>
+            </div>
+          </div>
         </div>    
       </div>
       <div class="row" style="margin-top: 20px;">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <h3>Шаг&nbsp;2. Создайте для&nbsp;каждой группы тело пароля</h3>
           <p>Условно пароль можно разделить на&nbsp;две&nbsp;части: тело и&nbsp;изменяемую часть. Тело —&nbsp;это&nbsp;словосочетание или&nbsp;порядок символов, которые повторяются от&nbsp;пароля к&nbsp;паролю.</p>
-          <img src="./img/parol.png" width=100% height=auto>
+          <div class="password-image">
+            <img src="./img/parol.png" width=100% height=auto>
+          </div>
           <p style="margin-top: 30px;">Придумайте три непохожих друг на&nbsp;друга тела пароля для&nbsp;каждой группы сервисов. Даже если мошенники получат пароль одной группы, две оставшиеся группы сервисов будут в&nbsp;безопасности.</p>
           <p class="no_mb">Соблюдайте рекомендации, о&nbsp;которых мы&nbsp;писали выше:</p>
           <ul class="container__list inner_ml">
@@ -315,7 +324,7 @@
         </div>
       </div>
     </div>
-    <div class="container" style="margin-top: 10px; padding-top: 20px; padding-left: 35px; padding-right: 35px; padding-bottom: 20px; background-color: #EEF2FF">
+    <div class="container bg-container bg-container_blue">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <p class="no_mb">Алгоритм обновления паролей:</p>
@@ -345,12 +354,15 @@
         <p style="margin-top: 20px; margin-left: 30px;">1234Ddobroye!0Utro5678</p>
         </div>
       </div>
-    </div>
-    <div class="container" style="margin-top: 30px;">
-      <div class="row">
+      <div class="row row_hidden" data-name="password">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <p style="margin-left: 30px; margin-bottom: 30px;">Исходный пароль —&nbsp;<b>23DdobroyeUtro6</b></p>
         </div>
+      </div>
+      <div class="button-container">
+        <button class="button-container__button button-container__button_not_selected" data-name="password">
+          Узнать ответ
+        </button>
       </div>
     </div>
     <div class="container" style="margin-top: 30px;">
@@ -360,7 +372,7 @@
         </div>
       </div>
     </div>
-    <div class="container" style="margin-top: 10px; padding-top: 20px; padding-left: 35px; padding-right: 35px; padding-bottom: 20px; background-color: #EEF2FF">
+    <div class="container bg-container bg-container_blue">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
           <p class="no_mb">Совет</p>
@@ -397,6 +409,11 @@
             <li class="no_mb"><b>5.&nbsp;Добавьте к&nbsp;записанным паролям лишние символы, буквы и&nbsp;числа</b></li>
             <li>Важно, чтобы&nbsp;добавленные символы выглядели частью пароля.</li>
           </ol>
+        </div>
+        <div class="button-container" style="margin-top: 20px;">
+          <a href="./password_rules.jpg" download class="button-container__button button-container__button_not_selected">
+            Скачать памятку
+          </a>
         </div>
       </div>
     </div>
